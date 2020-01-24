@@ -38,11 +38,17 @@ body {
 #nav .item{
     background-color: #383E4C;
     border: 1px solid #646d7c;
+    cursor: pointer;
     display: inline-block;
     font-size: 1.25rem;
     list-style-type: none;
     margin: 0 10px;
     padding: 10px 25px;
+    transition: 200ms;
+}
+
+#nav .item:hover {
+    background-color: rgb(83, 90, 105);
 }
 
 #nav a {
@@ -265,4 +271,29 @@ body {
     background-color: #fff;
     border: 1px solid #333;
     color: #333;
+}
+
+/* Free Section */
+
+#free h1,p {
+    color: #666;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+#free {
+    border-bottom: 1px solid #ddd;
+    padding: 30px 0;
+}
+
+/* Footer */
+
+#footer {
+    padding: 10px 0;
+}
+
+#footer p {    
+    font-size: 0.75rem;
+    font-style: normal;
 }
